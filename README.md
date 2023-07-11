@@ -2,7 +2,8 @@
 
 This repository includes the ESNR (Edge signal-to-noise ratio) part for paper "Towards Understanding and Reducing Graph Structural Noise for GNNs". ESNR is proposed as a novel metric for measuring graph structural noise level for real graph-structured datasets.
 
-<img width="1328" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/c4cb29c8-3bc3-4868-b42f-11d069b083e1">
+<img width="1160" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/7c91b717-a51f-4d96-bcf7-fab8a4f160a2">
+
 
 
 ## Dependencies
@@ -16,10 +17,26 @@ This repository includes the ESNR (Edge signal-to-noise ratio) part for paper "T
 ## Results
 
 ESNR performance in synthetic contextual stochastic block model:
-<img width="1448" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/7b8a6eaf-80a9-4a98-887d-f63c2b82930a">
+<img width="1287" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/2d8f020c-ac83-4a17-8804-a4c3fe6cb593">
+
 
 ESNR performance in real graph-structured datasets:
 
-<img width="700" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/e820e8db-99fb-4b2e-b872-076c9693f5d1">
+<img width="869" alt="image" src="https://github.com/MingzeDong/ESNR/assets/68533876/4b3a4127-14c1-4df4-8b4a-ae49f5ff1437">
 
-For more details, please refer to our paper:
+
+For more details, please refer to our paper: [Towards Understanding and Reducing Graph Structural Noise for GNNs](https://proceedings.mlr.press/v202/dong23a.html)
+```
+@InProceedings{pmlr-v202-dong23a,
+  title = 	 {Towards Understanding and Reducing Graph Structural Noise for {GNN}s},
+  author =       {Dong, Mingze and Kluger, Yuval},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {8202--8226},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR}
+}
+```
